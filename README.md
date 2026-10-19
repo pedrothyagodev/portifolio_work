@@ -9,7 +9,7 @@ O tema é a madrugada, por causa do meu apelido, Corujão. O topo é uma florest
 - Sobre mim e alguns números
 - Projetos de 2026: Logchip, Luz na Comunidade, Orbitrace e a rádio Radar 1 News
 - Skills, incluindo o que estou estudando agora
-- Trajetória com formação, cursos e eventos de tecnologia
+- Trajetória com formação e eventos
 - Contato
 - Versão em inglês, no botão EN do menu
 
