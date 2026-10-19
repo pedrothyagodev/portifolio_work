@@ -457,9 +457,9 @@ footer a:hover{color:var(--branco)}
         <div><span class="etiqueta">Contato</span><h2>Bora <span>conversar?</span></h2></div>
         <div class="contato-card vidro">
           <p>Tem uma vaga de estágio ou um projeto em mente? Me chama que eu respondo, de dia ou de madrugada.</p>
-          <span class="email" id="email">pedrothyago345@gmail.com</span>
+          <span class="email" id="email">pedro_thyago@icloud.com</span>
           <div class="acoes">
-            <a class="btn-branco enviar" id="enviar" href="mailto:pedrothyago345@gmail.com?subject=Contato%20pelo%20portf%C3%B3lio">Enviar e-mail</a>
+            <a class="btn-branco enviar" id="enviar" href="mailto:pedro_thyago@icloud.com?subject=Contato%20pelo%20portf%C3%B3lio">Enviar e-mail</a>
             <button class="btn-vidro" id="copiar" type="button">Copiar e-mail</button>
             <a class="btn-vidro" href="https://www.linkedin.com/in/pedro-thyago" target="_blank" rel="noopener">LinkedIn ↗</a>
           </div>
@@ -625,7 +625,7 @@ document.getElementById('copiar').addEventListener('click',function(){
     document.documentElement.lang=l==='en'?'en':'pt-BR';
     btn.textContent=l==='en'?'PT':'EN';
     btn.setAttribute('aria-label',l==='en'?'Mudar para português':'Switch to English');
-    const env=document.getElementById('enviar');if(env)env.href='mailto:pedrothyago345@gmail.com?subject='+encodeURIComponent(l==='en'?'Contact from your portfolio':'Contato pelo portfólio');
+    const env=document.getElementById('enviar');if(env)env.href='mailto:pedro_thyago@icloud.com?subject='+encodeURIComponent(l==='en'?'Contact from your portfolio':'Contato pelo portfólio');
     try{localStorage.setItem('idioma',l)}catch(e){}
   }
   btn.addEventListener('click',()=>aplicar(window.idiomaAtual==='en'?'pt':'en'));

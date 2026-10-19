@@ -31,4 +31,4 @@ Abre o `index.html` no navegador. Não precisa instalar nada.
 ## Contato
 
 - LinkedIn: [pedro-thyago](https://www.linkedin.com/in/pedro-thyago)
-- E-mail: pedrothyago345@gmail.com
+- E-mail: pedro_thyago@icloud.com
