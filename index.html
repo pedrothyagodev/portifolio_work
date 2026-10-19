@@ -227,7 +227,8 @@ section{padding-block:clamp(90px,11vw,150px)}
 .contato-card p{margin:0;color:rgba(252,254,254,.82);font-size:15px}
 .email{display:block;border-radius:10px;background:rgba(4,11,18,.4);border:1px solid rgba(252,254,254,.1);padding:13px 14px;font-size:15px;user-select:all;overflow-wrap:anywhere}
 .contato-card .acoes{display:flex;gap:8px;flex-wrap:wrap}
-.contato-card .acoes > *{flex:1 1 auto}
+.contato-card .acoes > *{flex:1 1 auto;justify-content:center}
+.contato-card .acoes .enviar{flex-basis:100%}
 @media (max-width:860px){.final{grid-template-columns:1fr}}
 
 footer{padding-block:28px 36px;color:var(--gelo);font-size:13.5px}
@@ -458,7 +459,8 @@ footer a:hover{color:var(--branco)}
           <p>Tem uma vaga de estágio ou um projeto em mente? Me chama que eu respondo, de dia ou de madrugada.</p>
           <span class="email" id="email">pedrothyago345@gmail.com</span>
           <div class="acoes">
-            <button class="btn-branco" id="copiar" type="button">Copiar e-mail</button>
+            <a class="btn-branco enviar" id="enviar" href="mailto:pedrothyago345@gmail.com?subject=Contato%20pelo%20portf%C3%B3lio">Enviar e-mail</a>
+            <button class="btn-vidro" id="copiar" type="button">Copiar e-mail</button>
             <a class="btn-vidro" href="https://www.linkedin.com/in/pedro-thyago" target="_blank" rel="noopener">LinkedIn ↗</a>
           </div>
         </div>
@@ -599,7 +601,7 @@ document.getElementById('copiar').addEventListener('click',function(){
     "Nível intermediário, curso até 2027.":"Intermediate level, course runs until 2027.",
     "Bora <span>conversar?</span>":"Let's <span>talk</span>",
     "Tem uma vaga de estágio ou um projeto em mente? Me chama que eu respondo, de dia ou de madrugada.":"Have an internship opening or a project in mind? Reach out and I'll reply, day or night.",
-    "Copiar e-mail":"Copy email",
+    "Copiar e-mail":"Copy email","Enviar e-mail":"Send email",
     "Voltar ao topo ↑":"Back to top ↑",
     "Feito com IA no Checkpoint 6 da FIAP":"Made with AI for FIAP's Checkpoint 6",
     "de Python na FIAP":"of Python at FIAP",
@@ -623,6 +625,7 @@ document.getElementById('copiar').addEventListener('click',function(){
     document.documentElement.lang=l==='en'?'en':'pt-BR';
     btn.textContent=l==='en'?'PT':'EN';
     btn.setAttribute('aria-label',l==='en'?'Mudar para português':'Switch to English');
+    const env=document.getElementById('enviar');if(env)env.href='mailto:pedrothyago345@gmail.com?subject='+encodeURIComponent(l==='en'?'Contact from your portfolio':'Contato pelo portfólio');
     try{localStorage.setItem('idioma',l)}catch(e){}
   }
   btn.addEventListener('click',()=>aplicar(window.idiomaAtual==='en'?'pt':'en'));
