@@ -9,8 +9,8 @@ O tema é a madrugada, por causa do meu apelido, Corujão. O topo é uma florest
 - Sobre mim e alguns números
 - Projetos de 2026: Logchip, Luz na Comunidade, Orbitrace e a rádio Radar 1 News
 - Skills, incluindo o que estou estudando agora
-- Trajetória com formação, experiência e eventos
-- Contato e currículo pra baixar
+- Trajetória com formação, cursos e eventos de tecnologia
+- Contato
 - Versão em inglês, no botão EN do menu
 
 ## Como foi feito
@@ -25,7 +25,6 @@ Abre o `index.html` no navegador. Não precisa instalar nada.
 
 - `index.html`: a página
 - `foto.jpg`: minha foto
-- `curriculo-pedro-thyago.pdf`: currículo
 - `favicon.svg`: ícone da aba
 - `og.png`: imagem que aparece quando o link é compartilhado
 

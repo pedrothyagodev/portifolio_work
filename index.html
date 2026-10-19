@@ -297,7 +297,7 @@ footer a:hover{color:var(--branco)}
             <div><small>Agora</small><b id="hora">--:--</b></div>
           </div>
           <div class="ficha-preco"><strong>Estágio <small>em dev</small></strong><span class="disponivel">Disponível</span></div>
-          <div class="ficha-botoes"><a class="btn-branco" href="#projetos">Ver projetos</a><a class="btn-vidro" href="curriculo-pedro-thyago.pdf" download>Baixar currículo</a></div>
+          <a class="btn-branco" href="#projetos">Ver projetos</a>
         </aside>
       </div>
     </header>
@@ -308,12 +308,12 @@ footer a:hover{color:var(--branco)}
   <section id="sobre">
     <div class="wrap">
       <span class="etiqueta">Sobre</span>
-      <p class="declaracao revela">Gosto de construir coisas que <em>resolvem problemas de verdade</em>, principalmente pra cidades do interior da Bahia. <span>Tenho técnico em Administração e já trabalhei negociando com clientes, então penso em quem usa o sistema e em quem paga por ele.</span></p>
+      <p class="declaracao revela">Gosto de construir coisas que <em>resolvem problemas de verdade</em>, principalmente pra cidades do interior da Bahia. <span>Por fora da faculdade estou estudando dados e cibersegurança, e gosto de colocar no ar tudo o que eu construo.</span></p>
       <div class="numeros">
         <div class="vidro revela"><strong>4</strong><span>projetos em 2026</span></div>
         <div class="vidro revela"><strong>3</strong><span>no ar agora</span></div>
         <div class="vidro revela"><strong>2029</strong><span>formatura prevista</span></div>
-        <div class="vidro revela"><strong>EN</strong><span>inglês intermediário</span></div>
+        <div class="vidro revela"><strong>80h</strong><span>de Python na FIAP</span></div>
       </div>
     </div>
   </section>
@@ -438,16 +438,12 @@ footer a:hover{color:var(--branco)}
     <div class="wrap">
       <div class="cabeca">
         <div><span class="etiqueta">Trajetória</span><h2>Até <span>aqui</span></h2></div>
-        <p>Formação, experiência e eventos, do mais recente pro mais antigo.</p>
+        <p>Formação, cursos e eventos na área de tecnologia.</p>
       </div>
       <ol class="linha">
         <li class="revela"><time>2026 até hoje</time><div><h3>Engenharia de Software na FIAP</h3><p>Checkpoints, sprints e projetos em grupo. Formatura prevista pra 2029.</p></div><span class="etq">Formação</span></li>
         <li class="revela"><time>2026</time><div><h3>Global Solution FIAP</h3><p>Entrega do Orbitrace com o time, com destaque em Edge Computing.</p></div><span class="etq evt">Evento</span></li>
         <li class="revela"><time>2026</time><div><h3>Python Development, FIAP Nano Course</h3><p>Curso de 80 horas de Python na prática.</p></div><span class="etq">Certificação</span></li>
-        <li class="revela"><time>2025</time><div><h3>TCC vencedor da turma</h3><p>Plano de negócios completo pra uma empresa, eleito o melhor TCC e a melhor apresentação da turma de Administração.</p></div><span class="etq evt">Conquista</span></li>
-        <li class="revela"><time>2025</time><div><h3>Técnico em Administração</h3><p>Ensino médio integrado no Colégio Clóvis Bevilacqua.</p></div><span class="etq">Formação</span></li>
-        <li class="revela"><time>jan a mai 2025</time><div><h3>Área comercial na SEGESP LTDA</h3><p>Atendimento e negociação com clientes em São Paulo.</p></div><span class="etq exp">Experiência</span></li>
-        <li class="revela"><time>2022 até hoje</time><div><h3>Inglês na Wizard by Pearson</h3><p>Nível intermediário, curso até 2027.</p></div><span class="etq">Formação</span></li>
       </ol>
     </div>
   </section>
@@ -462,7 +458,6 @@ footer a:hover{color:var(--branco)}
           <div class="acoes">
             <button class="btn-branco" id="copiar" type="button">Copiar e-mail</button>
             <a class="btn-vidro" href="https://www.linkedin.com/in/pedro-thyago" target="_blank" rel="noopener">LinkedIn ↗</a>
-            <a class="btn-vidro" href="curriculo-pedro-thyago.pdf" download>Baixar currículo</a>
           </div>
         </div>
       </div>
@@ -567,7 +562,7 @@ document.getElementById('copiar').addEventListener('click',function(){
     "Pedro Thyago<br>Dev em formação":"Pedro Thyago<br>Developer in training",
     "Curso":"Program","Eng. de Software":"Software Eng.","Faculdade":"University","Cidade":"City","Agora":"Now",
     "Estágio <small>em dev</small>":"Internship <small>in dev</small>","Disponível":"Available","Ver projetos":"See projects",
-    "Gosto de construir coisas que <em>resolvem problemas de verdade</em>, principalmente pra cidades do interior da Bahia. <span>Tenho técnico em Administração e já trabalhei negociando com clientes, então penso em quem usa o sistema e em quem paga por ele.</span>":"I like building things that <em>solve real problems</em>, especially for small towns in the countryside of Bahia, Brazil. <span>I have a technical degree in Business Administration and I've worked in sales, so I think about who uses the system and who pays for it.</span>",
+    "Gosto de construir coisas que <em>resolvem problemas de verdade</em>, principalmente pra cidades do interior da Bahia. <span>Por fora da faculdade estou estudando dados e cibersegurança, e gosto de colocar no ar tudo o que eu construo.</span>":"I like building things that <em>solve real problems</em>, especially for small towns in the countryside of Bahia, Brazil. <span>Outside of class I'm studying data and cybersecurity, and I like to put everything I build online.</span>",
     "projetos em 2026":"projects in 2026","no ar agora":"live now","formatura prevista":"expected graduation","inglês intermediário":"intermediate English",
     "Feito em <span>2026</span>":"Built in <span>2026</span>",
     "Projetos pessoais, da faculdade e pra cidade.":"Personal, university and community projects.",
@@ -605,7 +600,8 @@ document.getElementById('copiar').addEventListener('click',function(){
     "Copiar e-mail":"Copy email",
     "Voltar ao topo ↑":"Back to top ↑",
     "Feito com IA no Checkpoint 6 da FIAP":"Made with AI for FIAP's Checkpoint 6",
-    "Baixar currículo":"Download résumé",
+    "de Python na FIAP":"of Python at FIAP",
+    "Formação, cursos e eventos na área de tecnologia.":"Education, courses and events in tech.",
     "Python Development, FIAP Nano Course":"Python Development, FIAP Nano Course",
     "Curso de 80 horas de Python na prática.":"80-hour hands-on Python course.",
     "Certificação":"Certificate","Conquista":"Award",
